@@ -1,0 +1,120 @@
+@font-face {
+  font-family: "Inter";
+  src: url("../assets/fonts/static/Inter-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  background: hsl(0, 0%, 8%);
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: grid;
+  width: 400px;
+  min-height: 600px;
+  border-radius: 16px;
+  background: hsl(0, 0%, 12%);
+  overflow: auto;
+  position: relative;
+}
+
+.container > .img {
+  display: grid;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+  background: none;
+}
+
+.container > .img > img {
+  border-radius: 50%;
+  width: 100%;
+  height: 100px;
+  margin-top: 40px;
+}
+
+.container > .headers {
+  position: relative;
+  width: 100%;
+  height: 130px;
+  top: 60px;
+  background: none;
+}
+
+.container > .headers > h4 {
+  display: grid;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: 600;
+  background: none;
+  color: hsl(0, 0%, 100%);
+  font-family: "Inter";
+}
+.container > .headers > p {
+  font-family: "Inter";
+  display: grid;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 400;
+  background: none;
+  color: hsl(75, 94%, 57%);
+  margin-top: 10px;
+}
+
+.container > .headers > p:last-of-type {
+  font-size: 14px;
+  color: hsl(0, 6%, 67%);
+  margin-top: 20px;
+}
+
+.btn-container {
+  display: grid;
+justify-content: center;
+  width: 100%;
+  padding: 10px;
+  background: none;
+  margin-top: 60px;
+}
+
+
+
+.btn-container > .btn {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin-bottom: 15px;
+    padding: 15px 0;
+    background: hsl(0, 0%, 20%);
+    border-radius: 8px;
+    border: none;
+    color: hsl(0, 0%, 100%) ;
+    font-family: "Inter";
+    font-weight: 400;
+    transition: all 0.3s ease;
+}
+
+.btn-container > button {
+ cursor: pointer;
+}
+
+.btn-container > button:hover {
+    background: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+}
+
+
+@media screen and (max-width: 450px) {
+    .container {
+        margin: 0 20px;
+    }
+}
