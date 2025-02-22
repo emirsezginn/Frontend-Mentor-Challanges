@@ -23,7 +23,7 @@ body {
   display: grid;
   min-width: 21rem;
   min-height: 600px;
-  border-radius: 16px;
+  border-radius: 8px;
   background: hsl(0, 0%, 12%);
   overflow: auto;
   position: relative;
@@ -73,7 +73,7 @@ body {
 .container > .headers > p:last-of-type {
   font-size: 0.8rem;
   color: hsl(0, 6%, 67%);
-  margin-top: 20px;
+  margin-top: 25px;
 }
 
 .btn-container {
@@ -82,38 +82,36 @@ body {
   width: 100%;
   padding: 10px;
   background: none;
-  margin-top: 60px;
+  margin-top: 50px;
 }
 .btn-container > ul {
   list-style-type: none;
   width: 18.75rem;
   font-weight: 400;
   transition: all 0.3s ease;
-  background: hsl(0, 0%, 12%);
+  background: none;
 }
 
 .btn-container > ul > li {
-  border-radius: 8px;
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   transition: all 0.2s ease;}
-
-.btn-container > ul > li > a {
+  
+  .btn-container > ul > li > a {
+  border-radius: 8px;
   display: block;
   text-decoration: none;
   color: hsl(0, 0%, 100%);
+  background: hsl(0, 0%, 20%);
   font-size: 0.8rem;
   font-weight: 600;
-  background: none;
-  padding: 20px 0;
+  padding: 15px 0;
  transition: all 0.2s ease;
 }
 
-.btn-container > ul > li:hover {
-  background: hsl(75, 94%, 57%);
-}
 
 .btn-container > ul > li > a:hover {
+  background: hsl(75, 94%, 57%);
   color: hsl(0, 0%, 12%);
 }
 
