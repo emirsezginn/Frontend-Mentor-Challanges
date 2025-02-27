@@ -80,9 +80,9 @@ padding: 30px;
     margin: 40px 0;
 }
 
-.container > header > .preparation > h3 {
+.container > header > .preparation > p {
     color: hsl(332, 51%, 32%);
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .container > header > .preparation > ul > li {
