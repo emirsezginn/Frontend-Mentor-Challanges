@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Niconne&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: "outfit", sans-serif;
+    letter-spacing: 0.1px;
+}
+
+h1,
+h2 {
+    font-family: "young serif", sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+font-size: 2.5em;
+}
+
+h2 {
+    color: hsl(14, 45%, 36%);
+    font-size: 1.7em;
+}
+
+p {
+    color: hsl(30, 10%, 34%);
+    font-size: 1rem;
+}
+
+
+span {
+    font-weight: 600;
+    color: hsl(30, 10%, 34%);
+    letter-spacing: 0.3px;
+}
+
+
+li {
+    color: hsl(30, 10%, 34%);
+
+}
+
+hr {
+    background: hsl(30, 10%, 34%);
+    opacity: 0.3;
+    margin: 30px 0;
+}
+
+.img{
+display: none;
+}
+body {
+    margin: 7% auto;
+    padding: 0;
+    max-width: 40%;
+    background: hsl(30, 54%, 90%);
+}
+
+
+.container {
+background: hsl(0, 0%, 100%);
+border-radius: 16px;
+padding: 30px;
+}
+
+.container > header {
+    width: 100%;
+}
+
+.container > header > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+}
+
+.container > header > .preparation {
+    width: 100%;
+    background: hsl(330, 100%, 98%);
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin: 40px 0;
+}
+
+.container > header > .preparation > h3 {
+    color: hsl(332, 51%, 32%);
+    font-weight: 600;
+}
+
+.container > header > .preparation > ul > li {
+    margin: 10px 0;
+    font-size: 1rem;
+    padding-left: 20px;
+    margin-left: -15px;
+}
+
+
+
+.container > main > .ingredients > ul > li {
+    margin-top: 15px;
+    padding-left: 25px;
+    margin-left: -15px;
+}
+
+.container > main > .ingredients > ul > li::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+.container > main > .instructions > ol > li {
+    margin: 15px;
+    padding-left: 15px;
+    margin-left: -15px;
+}
+
+.container > main > .instructions > ol > li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+.container > main > .nutrition > p {
+    margin-bottom: 30px;
+}
+
+.container > main > .nutrition > ul > li {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    border-bottom: 1px solid hsl(30 10% 34% / 0.3);
+    margin: 20px 0;
+    margin-left: -40px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+}
+
+.container > main > .nutrition > ul > li > span {
+    width: 50%;
+    font-weight: 600;
+    color: hsl(14, 45%, 36%);
+    letter-spacing: 0.3px;
+}
+
+.container > main > .nutrition > ul > li:last-child {
+    border-bottom: none;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        max-width: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        border-radius: 0;
+    }
+
+    .container > header > img {
+        display: none;
+    }
+
+    .img {
+        display: block;
+        width: 100%;
+    }
+
+    .img > img {
+        width: 100%;
+        height: 100%;
+        margin-bottom: -4px;
+    }
+
+
+}
