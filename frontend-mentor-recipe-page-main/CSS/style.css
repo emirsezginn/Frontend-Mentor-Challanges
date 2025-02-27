@@ -85,29 +85,36 @@ padding: 30px;
     font-weight: 700;
 }
 
+.container > header > .preparation > ul {
+    padding-left: 25px;
+}
+
 .container > header > .preparation > ul > li {
     margin: 10px 0;
     font-size: 1rem;
-    padding-left: 20px;
-    margin-left: -15px;
+    padding-left: 10px;
 }
 
-
+.container > main > .ingredients > ul {
+    padding-left: 25px;
+}
 
 .container > main > .ingredients > ul > li {
     margin-top: 15px;
     padding-left: 25px;
-    margin-left: -15px;
 }
 
 .container > main > .ingredients > ul > li::marker {
     color: hsl(14, 45%, 36%);
 }
 
+.container > main > .instructions > ol {
+    padding-left: 10px;
+}
+
 .container > main > .instructions > ol > li {
     margin: 15px;
     padding-left: 15px;
-    margin-left: -15px;
 }
 
 .container > main > .instructions > ol > li::marker {
@@ -160,11 +167,11 @@ padding: 30px;
         display: block;
         width: 100%;
     }
-
+    
     .img > img {
+        vertical-align: middle;
         width: 100%;
         height: 100%;
-        margin-bottom: -4px;
     }
 
 
