@@ -77,7 +77,8 @@ jsonVerisi.forEach((item, index) => {
     summaryList.appendChild(li);
 });
 
-// Buton
+// button
 const button = document.createElement('button');
 button.textContent = 'Continue';
-summaryList.appendChild(button);
+const summaryElement = document.querySelector('.summary');
+summaryElement.appendChild(button);
