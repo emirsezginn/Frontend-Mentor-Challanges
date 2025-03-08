@@ -62,21 +62,21 @@ main > header > a:hover {
     color: hsl(47, 88%, 63%);
 }
 
-main > section{
+main > section > p{
 color: hsl(0, 0%, 42%);
 line-height: 1.4rem;
 }
 
-footer {
+div {
     display: flex;
 }
 
-footer > img {
+section > div > img {
     width: 40px;
     height: 40px;   
 }
 
-footer > h1 {
+section > div > h1 {
     margin: 0;
     padding: 10px 0 0 10px;
     font-size: 16px;
