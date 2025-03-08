@@ -59,7 +59,7 @@ font-weight: 800;
 margin-bottom: 5px; 
 }
 
-main > header > .disc{
+main > section{
 color: hsl(0, 0%, 42%);
 line-height: 1.4rem;
 }
@@ -73,7 +73,7 @@ footer > img {
     height: 40px;   
 }
 
-footer > p {
+footer > h2 {
     margin: 0;
     padding: 10px 0 0 10px;
     font-size: 16px;
