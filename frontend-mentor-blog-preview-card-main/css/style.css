@@ -79,3 +79,9 @@ footer > h2 {
     font-size: 16px;
     font-weight: 800;
 }
+
+@media screen and (max-width: 450px) {
+    body{
+        margin: 30px;
+    }
+}
