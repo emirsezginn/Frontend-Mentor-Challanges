@@ -22,8 +22,8 @@ p {
 
 main {
     display: grid;
-    width: 400px;
-    height: 530px;
+    width: 25rem;
+    height: 33.1rem;
     padding: 20px;
     background:hsl(0, 0%, 100%);
     overflow: hidden;
@@ -40,7 +40,7 @@ main > header > img{
 
 main > header > h1 {
     text-align: center;
-    width: 80px;
+    width: 5rem;
     padding: 5px 5px;
     background: hsl(47, 88%, 63%);
     border-radius: 8px;
