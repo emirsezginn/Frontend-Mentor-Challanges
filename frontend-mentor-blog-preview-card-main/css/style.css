@@ -48,15 +48,18 @@ main > header > .learning {
 }
 
 .publi{
-    margin: 0;
-    padding: 0;
     font-weight: 500;
 }
 
-main > header > h1 {
-font-size: 25px;
+main > header > a {
+font-size: 24px;
 font-weight: 800;
-margin-bottom: 5px; 
+text-decoration: none;
+color: hsl(0, 0%, 7%) ;
+}
+
+main > header > a:hover {
+    color: hsl(47, 88%, 63%);
 }
 
 main > section{
