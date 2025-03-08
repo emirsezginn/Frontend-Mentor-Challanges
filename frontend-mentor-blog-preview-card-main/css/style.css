@@ -59,7 +59,7 @@ font-weight: 800;
 margin-bottom: 5px; 
 }
 
-main > section{
+main > header > .disc{
 color: hsl(0, 0%, 42%);
 line-height: 1.4rem;
 }
