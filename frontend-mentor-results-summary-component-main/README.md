@@ -1,7 +1,7 @@
 <h1 align="center">
 🤖Result PAGE🚀
 </h1>
-<p align="center">Live: (https://frontendmentorresultsummaryy.netlify.app/)</p>
+<p align="center">Live: (https://es-frontendmentor-result-summary.netlify.app/)</p>
 
 ![image](https://github.com/user-attachments/assets/d08c7489-da6c-4f54-97a1-1fec3e4f29a1)
 
