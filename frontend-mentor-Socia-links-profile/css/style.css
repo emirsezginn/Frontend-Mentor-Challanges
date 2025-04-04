@@ -95,7 +95,8 @@ body {
 .btn-container > ul > li {
   text-align: center;
   margin-bottom: 15px;
-  transition: all 0.2s ease;}
+  transition: all 0.2s ease;
+   background: none;}
   
   .btn-container > ul > li > a {
   border-radius: 8px;
